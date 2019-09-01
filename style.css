@@ -1,0 +1,48 @@
+/* specificity: 001 */
+body {
+	background-image: url(backgroundimage.jpg);
+	background-size:cover;
+}
+h1{
+	font-family: fantasy;
+	color: #9E3549;
+	text-align: center;
+	border: 3px dashed rgba(237, 158, 174, 0.5); 
+	cursor: pointer;
+	font-size: 3em;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.boxmodel{
+	border: 5px solid #6FA798;
+	display: inline-block;
+	padding: 5px 20px 5px 20px;
+	margin: 0px 20px;
+}
+
+footer{
+	clear: both;
+	text-align: center;
+	background-color: black
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px; 
+	transition: all 1s; 
+}
+
+img:hover{
+transform: scale(1.1);
+}

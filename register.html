@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+</head>
+<body>
+
+	<!-- Etiquetas para formularios command slash-->
+	<div> <!--div para bloque sy span para lineas concretas -->
+		<form method="GET">
+			First name <input type="text" name="firstname"><br>
+			Last name <input type="text"name="lastname"><br>
+			Email <input type="email" required name="email"><br>
+			Password <input type="password" minlength="5" name="password"><br>
+			Birthday <input type="date"><br>
+
+			Nationality 
+			<select name="nationality">
+				<option value="spain">Spain</option>
+				<option value="romania">Romania</option>
+				<option value="america">America</option>
+			</select><br>
+
+			Gender <input type="radio" name="gender" value="Male"> Male 
+			<input type="radio" name="gender" value="Female"> Female 
+			<input type="radio" name="gender" value="Other"> Other <br>
+
+			Pets <input type="checkbox" name="dogs">Dogs
+			<input type="checkbox" name="cats">Cats <br>
+			<input type="submit" value="Register">
+			<input type="reset" name="">
+		</form>
+	</div>
+</body>
+</html>
