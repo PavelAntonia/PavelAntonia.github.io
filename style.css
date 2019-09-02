@@ -9,7 +9,23 @@ h1{
 	text-align: center;
 	border: 3px dashed rgba(237, 158, 174, 0.5); 
 	cursor: pointer;
-	font-size: 3em;
+	font-size: 3em;}
+
+/* color all navbar */
+.bg-light {
+	background-color: rgba(171, 221, 147, 0.3) !important;
+}
+
+.navbar-light .navbar-brand{
+	color: #771427;
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: #003828;
+}
+
+.dropdown-menu{
+	background-color: rgba(171, 221, 147, 1) ;
 }
 
 li {
@@ -23,6 +39,8 @@ li {
 	padding: 5px 20px 5px 20px;
 	margin: 0px 20px;
 }
+
+
 
 footer{
 	clear: both;
